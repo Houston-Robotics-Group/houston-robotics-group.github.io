@@ -23,5 +23,5 @@ yarn-error.log*
 # webstorm settings and dictionaries
 .idea
 
-# package lock
-package-lock.json
+# package lock - This should be committed to deploy to github pages
+# package-lock.json

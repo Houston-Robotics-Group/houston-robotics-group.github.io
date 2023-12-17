@@ -1,7 +1,10 @@
 ---
 import { Icon } from 'astro-icon'
+import { Image } from "astro:assets"
 
 const { src = '/astronaut-hero-img.webp' } = Astro.props
+
+import linkedinIcon from "../assets/img/icons/linkedin.svg"
 ---
 
 <section class="hero my-24">
@@ -19,7 +22,7 @@ const { src = '/astronaut-hero-img.webp' } = Astro.props
             Event Calendar
           </a>
           <a class="button has-icon color-secondary" href="https://www.linkedin.com/company/houston-robotics-group/">
-            <Icon pack="ion" name="star-outline" />
+            <Image src={linkedinIcon} alt="LinkedIn Logo" width="30" height="30" />
             LinkedIn
           </a>
         </div>

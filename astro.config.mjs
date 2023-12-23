@@ -9,5 +9,5 @@ export default defineConfig({
   integrations: [mdx(), tailwind({
     applyBaseStyles: false,
   }), compress()],
-  site: 'https://houston-robotics-group.github.io',
+  site: 'https://houstonroboticsgroup.com',
 })

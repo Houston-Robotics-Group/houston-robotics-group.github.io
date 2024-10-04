@@ -8,6 +8,20 @@ This is the repo for the Houston Robtics Group website.
 
 Fork this repo locally to explore the code and run the website on your local machine. Open index.html in your browser to view the website.
 
+Project structure:
+```
+houston-robotics-group.github.io/
+├── assets/
+│   ├── css/ - stylesheets
+│   ├── img/ - images
+│   ├── js/ - javascript
+│   ├── vendor/ - third-party libraries
+├── .gitignore - gitignore file
+├── CNAME - custom domain
+├── README.md
+├── index.html - homepage
+```
+
 ## ❤️ Helping out
 
 We welcome contributors! If you find that something isn't working right, you can let us know by either:
